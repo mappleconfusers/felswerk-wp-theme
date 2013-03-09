@@ -105,8 +105,8 @@
 							        <span class="icon-bar"></span>
 								</a>
 								
-								<div class="nav-collapse">
-									<?php bones_main_nav(); // Adjust using Menus in Wordpress Admin ?>
+                                                                <div class="nav-collapse">
+                                                                        <?php wp_page_menu( array( 'menu_class'  => 'root' ) ); ?>
 								</div>
 								
 							</nav>
