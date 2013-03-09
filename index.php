@@ -6,7 +6,7 @@
 			?>
 			<div class="clearfix row-fluid">
                                 <div class="hero-unit">
-                                    <img src="images/logo.png"> 
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png"> 
 				</div>
 			</div>
 			<?php
