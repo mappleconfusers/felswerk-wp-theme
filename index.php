@@ -6,7 +6,7 @@
 			?>
 			<div class="clearfix row-fluid">
                                 <div class="hero-unit">
-                                    <img src="https://cupdev.net/~mapc/felswerk/logo/felswerk%20V1_final_wide_color256x.png"> 
+                                    <img src="images/logo.png"> 
 				</div>
 			</div>
 			<?php
