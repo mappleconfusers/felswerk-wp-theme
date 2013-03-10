@@ -681,6 +681,18 @@ function get_wpbs_theme_options(){
       }
 } // end get_wpbs_theme_options function
 
+// Felswerk
+//----------------------------
+
+function gen_bootstrap_nav() {
+    echo '<ul class="nav">';
 
 
+    $L_p = get_pages();
+    foreach ($L_p as &$p) {
+        echo "<li><a href='$p->guid' title='$p->post_excerpt'>$p->post_title</a></li>";
+    }
+
+    echo '</ul>';
+}
 ?>

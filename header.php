@@ -129,14 +129,7 @@
                   <?php bloginfo('name'); ?>
                 </a>
                 
-                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </a>
-
-                <div class="nav-collapse">
-                </div>
+                <?php gen_bootstrap_nav( ); ?>  
               </nav>
               
               <?php if(of_get_option('search_bar', '1')) {?>
