@@ -112,6 +112,10 @@ input, textarea, select, .uneditable-input {
 }
 
 /* post styling */
+ 
+#main {
+    width: 100%;
+}
 
 #main p.meta{
 	font-style: italic;
