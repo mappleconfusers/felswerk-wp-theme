@@ -520,6 +520,8 @@ blockquote.pull-left{
 		margin: 0 auto;
 		padding-left: 20px;
 		padding-right: 20px;
+
+    background: rgba(255,245,245,0.8);
 	}
 	
 	#inner-footer{
