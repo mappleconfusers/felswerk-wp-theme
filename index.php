@@ -1,18 +1,13 @@
 <?php get_header(); ?>
-			
-			<?php
-				$blog_hero = of_get_option('blog_hero');
-				if ($blog_hero){
-			?>
-			<div class="clearfix row-fluid">
-                                <div class="hero-unit">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png"> 
-				</div>
-			</div>
-			<?php
-				}
-			?>
-			
+
+<?php
+  $blog_hero = of_get_option('blog_hero');
+  if ($blog_hero){  ?>
+    <div class="clearfix row-fluid">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png"> 
+    </div>
+<?php } ?>
+
 			<div id="content" class="clearfix row-fluid">
 			
 				<div id="main" class="span8 clearfix" role="main">
