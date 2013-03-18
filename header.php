@@ -158,4 +158,4 @@
 
     <!-- BODY ---------------------------------->
 
-    <div class="container-fluid">
+    <div id="sitetext"class="container-fluid">

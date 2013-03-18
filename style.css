@@ -225,6 +225,10 @@ video {
 
 /* page styling */
 
+#sitetext {
+    background: rgb(246, 246, 246);;
+}
+	
 #featured-carousel .item{
 	width: 970px;
 	height: 600px;
@@ -520,10 +524,8 @@ blockquote.pull-left{
 		margin: 0 auto;
 		padding-left: 20px;
 		padding-right: 20px;
+  }
 
-    background: rgb(246, 246, 246);;
-	}
-	
 	#inner-footer{
 		padding: 0;
 	}
