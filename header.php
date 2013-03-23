@@ -117,9 +117,9 @@
     <header role="banner">
     
       <div id="inner-header" class="clearfix">
-        <div class="navbar navbar-fixed-top">
-          <div class="navbar-inner">
-            <div class="container-fluid nav-container">
+        <div class="navbar navbar-static-top">
+          <div class="container-fluid navbar-inner">
+            <div class="nav-container">
 
               <nav role="navigation">
                 <a   class="brand" 
