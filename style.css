@@ -232,6 +232,7 @@ video {
 #sitetext {
     background: rgb(246, 246, 246);
     padding-top: 30px;
+    border: 1px solid #555;
 }
 	
 #featured-carousel .item{
