@@ -117,7 +117,7 @@
     <header role="banner">
     
       <div id="inner-header" class="clearfix">
-        <div class="navbar navbar-static-top">
+        <div class="navbar navbar-static-top navbar-inverse">
           <div class="container-fluid navbar-inner">
             <div class="nav-container">
 
